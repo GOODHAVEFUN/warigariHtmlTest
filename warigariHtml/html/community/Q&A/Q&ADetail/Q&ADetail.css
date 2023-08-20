@@ -1,0 +1,75 @@
+/* 전체 영역 */
+* {
+    margin: 0;
+    padding: 0;
+}
+.OuterArea {
+    border: 1px solid black;
+    height: 1700px;
+    display: flex;
+    justify-content: center;
+}
+.InnerArea {
+    border: 1px solid black;
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 커뮤니티 자유게시판 텍스트 컨테이너 */
+.MainText-Container {
+    border: 1px solid red;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+/* 커뮤니티 자유게시판 텍스트 스타일 */
+.MainText-Style {
+    border: 1px solid green;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+/* ----- 위쪽 컨테이너 ----- */
+.Up-Container {
+    border: 1px solid blue;
+    height: 800px;
+    width: 100%;
+}
+/* 제목 */
+.Title-Container {
+    border: 1px solid red;
+    height: 50px;
+}
+/* 작성자 */
+.Author-Container {
+    border: 1px solid red;
+    height: 50px;
+}
+/* 게시일 */
+.PostDate-Container {
+    border: 1px solid red;
+    height: 50px;
+}
+/* 코멘트 */
+.Comment-Container {
+    border: 1px solid red;
+    height: 350px;
+}
+/* 삭제, 수정 버튼 */
+.Button-Container1 {
+    border: 1px solid red;
+    height: 150px;
+}
+
+
+/* ----- 아래쪽 컨테이너 ----- */
+.Down-Container {
+    border: 1px solid blue;
+    height: 850px;
+    width: 100%;
+}

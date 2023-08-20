@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bgGray {
+  background-color: #e5e5e5;
+
+}
+.bgGreen {
+  background-color: #18c6ae;
+}
+.bgRed {
+  background-color: #e4584b;
+}
+.colorWhite {
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 800px;
+  margin: 100px 0;
+}
+.titleContentSection {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleContent {
+}
+.title {
+  margin-top: 5%;
+}
+.titleInput{
+  border: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.comment {
+  /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.comment-area {
+  border: none;
+  margin-bottom: 2%;
+  resize: none;
+  width: 700px;
+  box-sizing: border-box;
+  height: 300px;
+}
+.border-radius {
+  border-radius: 5px;
+}
+.deleteEditComplete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-size {
+  width: 100px;
+  height: 50px;
+}
+.delete {
+  border: none;
+}
+.delete:hover {
+  background-color: #0d7a6c;
+}
+.editComplete {
+  border: none;
+}
+.editComplete:hover {
+  background-color: #9e3d34;
+}

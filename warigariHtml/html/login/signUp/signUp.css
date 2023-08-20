@@ -1,0 +1,125 @@
+/* 전체 영역 */
+* {
+    margin: 0;
+    padding: 0;
+}
+.Area {
+    border: 1px solid black;
+    height: 2000px;
+    width: 500px;
+    margin: auto;
+}
+
+
+
+/* '회원가입' 텍스트 영역 */
+.MainText-Container {
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* '회원가입' 텍스트 스타일 */
+.MainText-Style {
+    font-weight: bold;
+    font-size:  30px;
+}
+
+
+/* 가입서식 컨테이너 영역 */
+.Content-OuterContainer {
+    border: 1px solid black;
+    height: 1900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px gray;
+    border-radius: 10px;
+}
+.Content-InnerContainer {
+    border: 1px solid black;
+    height: 95%;
+    width: 80%;
+}
+
+
+/* 텍스트 스타일 */
+.Text-Style1 {
+    font-size: 17px;
+}
+.Text-Style2 {
+    font-size: 15px;
+}
+
+/* 인풋 스타일 */
+.Input-Style1 {
+    height: 30px;
+    width: 250px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid rgb(175, 175, 175);
+    font-size: 13px;
+}
+.Input-Style2 {
+    height: 30px;
+    width: 395px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid rgb(175, 175, 175);
+    font-size: 13px;
+}
+
+/* 버튼 스타일 */
+.Button-Style1 {
+    height: 35px;
+    width: 119px;
+    margin: 0 0 0 20px;
+    border: none;
+    background-color: rgb(215, 215, 215);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.Button-Style2 {
+    height: 35px;
+    width: 186px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid rgb(175, 175, 175);
+}
+.Button-Style2:hover {
+    border: 2px solid #00C7AE;
+    color: #00C7AE;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Button-Style3 {
+    height: 35px;
+    width: 186px;
+    margin: 0 0 0 20px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid rgb(175, 175, 175);
+}
+.Button-Style3:hover {
+    border: 2px solid #00C7AE;
+    color: #00C7AE;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 컨테이너 스타일 */
+.Container1 {
+    border: 1px solid blue;
+    height: 70px;
+    width: 100%;
+}
+.Container2 {
+    border: 1px solid blue;
+    height: 70px;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
